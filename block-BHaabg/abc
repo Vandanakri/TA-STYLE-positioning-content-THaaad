@@ -1,0 +1,102 @@
+<body>
+    <main>
+        <header class="header">
+           <img class="pic" src="https://i.ibb.co/jhKgKgP/logo.png">
+           <a href="">Home</a>
+           <a href="">About</a>
+           <a href="">Contact</a>
+        </header>
+    </main>
+    <article class="articleone">
+        <h1>This is a Heading</h1>
+        <p>Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+            Our cat articles cover everything from cat<br>. health and nutrition to behavior and training.<br>
+        </p>
+        <img  class="cat" src="https://www.imagesjunction.com/images/img/cat_photos.jpg">
+    </article>
+    <section class="image">
+        <img class="back" src="https://images.unsplash.com/photo-1615789591457-74a63395c990?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9tZXN0aWMlMjBjYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+        <img class="back" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg">
+        <img class="back" src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop">
+    </section>
+    <section class="image">
+        <img class="back" src="https://images.unsplash.com/photo-1615789591457-74a63395c990?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9tZXN0aWMlMjBjYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+        <img class="back" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg">
+        <img class="back" src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop">
+    </section>
+    <main>
+        <footer>
+            <a class="dog" href="">Facebook</a>
+            <a class="dog" href="">Instagram</a>
+            <a class="dog" href="">Twitter</a>
+        </footer>
+    </main>
+</body>
+.header{
+    background-color: blue;
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+}
+.pic{
+    width: 200px;
+    height: 40px;
+    padding-top: 5px;
+    margin-left: 10px;
+    
+}
+ a{
+    margin-right: 20px;
+    margin-top: 13px;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+.articleone{
+    background-color: aqua;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;padding-top: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-left: 20px;
+}
+.cat{
+    margin-top: -400px;
+    margin-left: 300px;
+    width: 400px;
+    height: 300px;
+    padding-left: 70px;
+}
+.image{
+    background-color: palevioletred;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+}
+.back{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.dog{
+    text-align: center;
+    margin-right: 120px;
+    color: white;
+}
+footer{
+    background-color: blue;
+    height: 50px;
+    width: 800px;
+    margin: 0 auto;
+}
